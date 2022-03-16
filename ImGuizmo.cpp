@@ -2855,7 +2855,6 @@ namespace IMGUIZMO_NAMESPACE
       if (!isDraging && io.MouseClicked[0] && isInside)
       {
          isDraging = true;
-         isClicking = false;
       }
       else if (isDraging && !io.MouseDown[0])
       {
